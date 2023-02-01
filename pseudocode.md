@@ -1,9 +1,9 @@
-#How to make a cup of coffee  
-##(Keurig K- Classic Coffee Maker (Model K40)
+# How to make a cup of coffee  
+## (Keurig K- Classic Coffee Maker (Model K40)
 
-###Functionality: (User makes a cup of coffee)
+### Functionality: (User makes a cup of coffee)
 
-**User:
+**User:**
 - Turns coffee maker on
 - Activates Auto Off
 - aits for coffee maker to warm up
@@ -22,7 +22,7 @@
 - Removes cup
 - Coffee maker shuts off automatically if auto off button was pressed  
 
-**Objects/ Data Structures
+**Objects/ Data Structures**
 
 -Coffee Maker (Keurig K-Classic Coffee Maker *Model K40*)
 1. Water Resevoir
@@ -53,7 +53,7 @@
     - on/off (boolean)
 
 
-**Define Objects/ Function
+**Define Objects/ Function**
 
 1. User:
     - pressButton
