@@ -53,10 +53,59 @@
     - on/off (boolean)
 
 
+
+START  
+//BEGIN PROGRAM
+
+    DETERMINE
+        IF coffee maker is off 
+            THEN turn coffee maker on
+        ENDIF
+    
+    DETERMINE
+        IF water resevoir needs water
+            THEN add water
+        ENDIF
+
+    DETERMINE
+        IF coffee maker is on
+            AND water resevoir doesn't need water
+            THEN INPUT select cup size
+        ENDIF
+    
+    INPUT select cup size
+
+    INPUT place cup under pod receptacle
+
+    INPUT select pod
+
+    DETERMINE
+        IF pod receptacle in open
+            THEN insert pod and close pod receptacle
+        ELSE
+            open pod receptacle
+        ENDIF
+
+        CASE selected cup size
+            small: INPUT fill small cup
+            medium: INPUT fill medium cup
+            large: INPUT fill large cup
+        ENDCASE
+
+    DETERMINE
+        IF cup is filled
+            THEN remove pod and trash pod and remove cup
+        ENDIF
+
+//END PROGRAM
+
+
+
 **Define Objects/ Function**
 
-1. User:
+1. User  
     - pressButton
+    - checkResevoir
     - fillResevoir
     - openReceptacle
     - closeReceptacle
@@ -73,7 +122,3 @@
     - selectCupSmall
     - selectCupMediun
     - selectCupLarge  
-
-
-
-
