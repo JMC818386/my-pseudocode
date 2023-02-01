@@ -6,21 +6,20 @@
 **User:**
 - Turns coffee maker on
 - Activates Auto Off
-- aits for coffee maker to warm up
 - Ensures enough water is in the water reservoir
-- Opens pod receptacle
 - Selects a cup
 - Places cup under pod receptacle
 - Selects a pod
+- Opens pod receptacle
 - Inserts pod intro receptacle
 - Closes pod receptacle
 - Presses coffee size button that corresponds to selected cup
 - Waits for coffee to fill cup
 - Opens pod receptacle
 - Removes pod
-- Closes pod receptacle
+- Trashes pod
 - Removes cup
-- Coffee maker shuts off automatically if auto off button was pressed  
+- Coffee maker shuts off automatically
 
 **Objects/ Data Structures**
 
