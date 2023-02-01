@@ -62,6 +62,8 @@ START
             THEN turn coffee maker on
         ENDIF
     
+    INPUT activate auto off
+    
     DETERMINE
         IF water resevoir needs water
             THEN add water
@@ -80,7 +82,7 @@ START
     INPUT select pod
 
     DETERMINE
-        IF pod receptacle in open
+        IF pod receptacle is open
             THEN insert pod and close pod receptacle
         ELSE
             open pod receptacle
